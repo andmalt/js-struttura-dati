@@ -1,14 +1,26 @@
 
 let card = {
-    name:'Illuna, Apex of Wishes',
-    launchCost : ['RedEarth','BlueEarth','GreenEarth','ColorlessEarth','ColorlessEarth'],
-    combinedManaCost = launchCost.length,
-    cardType: 'legendary creature',
-    subType: 'elemental',
+    name:'Adarkar Valkyrie',
+    launchCost : ['whiteEarth','whiteEarth','ColorlessEarth','ColorlessEarth','ColorlessEarth','ColorlessEarth'],
+    combinedManaCost : 6,
+    cardType: 'creature',
+    subType: 'angel',
     expansion: {
         expansionID: 7,
-        name: 'Ikoria: Lair of Behemoths',
-        rarity: 'mythic rare',
-    }
-}
+        name: 'Commander 2018',
+        rarity: 'rare',
+    },
+    flavourText:{
+        author:'Jeremy Jarvis',
+        quote:''
+    },
+    abilities:[{
+        name:'fly',
+        description:''
+    },{
+        name:'vigilance',
+        description:''
+    }]
+};
 
+console.log(card.launchCost);
