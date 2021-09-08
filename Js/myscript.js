@@ -12,14 +12,16 @@ let card = {
     },
     flavourText:{
         author:'Jeremy Jarvis',
-        quote:''
+        quote:'He does not accompany the dead to the afterlife, but resurrect them to make them fight and die again.'
     },
     abilities:[{
-        name:'fly',
-        description:''
+        name:'fly'
     },{
-        name:'vigilance',
-        description:''
+        name:'vigilance'
+    },{
+        name:'return from the dead',
+        cost:['tapping'],
+        description:'When target creature other than Adarkar Valkyrie dies this turn, return that card to the battlefield under your control.'
     }]
 };
 
